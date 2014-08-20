@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
 
 body {
   padding:50px;
@@ -68,17 +69,27 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  font-family: 'PT Mono', sans-serif;
   font-size:12px;
 }
 
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
 pre {
+  color:#333;
   padding:8px 15px;
-  background: #f8f8f8;  
+  background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
-  overflow-x: auto;
+  overflow: auto;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 table {
