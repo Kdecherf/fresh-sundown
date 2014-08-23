@@ -57,7 +57,7 @@ a small {
 }
 
 .wrapper {
-  width:950px;
+  width:1150px;
   margin:0 auto;
 }
 
@@ -184,7 +184,7 @@ div[class='social'] a {
 .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 
 section {
-  width:630px;
+  width:830px;
   float:right;
   padding-bottom:50px;
 }
