@@ -1,7 +1,10 @@
+{% if article.category %}
+  category: {{ article.category }}
+{% endif %}
 {% if article.tags %}
   tags: 
   {% for tag in article.tags %}
-    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>, 
+    {{ tag }}, 
   {% endfor %}
 {% endif %}
 {% if PDF_PROCESSOR %}<p><a href="{{ SITEURL }}/pdf/{{ article.slug }}.pdf">get the pdf</a></p>{% endif %}
